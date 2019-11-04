@@ -23,3 +23,40 @@ The final array should look something like this:
     26-100
 ]
 */
+
+const rowArr = [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  12,
+  13,
+  14,
+  15,
+  16,
+  17,
+  18,
+  19,
+  20,
+  21,
+  22,
+  23,
+  24,
+  25,
+  26
+];
+
+//function arrOfSeats() {
+for (let row = 1; row <= rowArr.length; row++) {
+  for (let seat = 1; seat <= 100; seat++) {
+    if (rowArr[row] <= 26) console.log(`${rowArr[row]} - ${seat}`);
+  }
+}
+//}
+//console.log(arrOfSeats());
