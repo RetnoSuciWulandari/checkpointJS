@@ -52,11 +52,16 @@ const rowArr = [
   26
 ];
 
-//function arrOfSeats() {
-for (let row = 1; row <= rowArr.length; row++) {
-  for (let seat = 1; seat <= 100; seat++) {
-    if (rowArr[row] <= 26) console.log(`${rowArr[row]} - ${seat}`);
+function arrOfSeats(row, seat) {
+  var emptyArr = [];
+  for (let r = 1; r <= row; r++) {
+    for (let s = 1; s <= seat; s++) {
+      var rowSeat = r + "-" + s;
+      emptyArr.push(rowSeat);
+      //console.log("seat " + seat);
+    }
+    //console.log("row " + row);
   }
+  return emptyArr;
 }
-//}
-//console.log(arrOfSeats());
+console.log(arrOfSeats(26, 100));
