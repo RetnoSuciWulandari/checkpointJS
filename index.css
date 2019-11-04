@@ -1,0 +1,9 @@
+h1 {
+  margin-top: 5rem;
+}
+
+.recipe img {
+  width: 240px;
+  height: 11rem;
+  padding: 10px;
+}

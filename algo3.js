@@ -14,4 +14,4 @@ function minuteAngle(minute) {
   return "Your input should be less than 60.";
 }
 
-console.log(minuteAngle(60));
+console.log(minuteAngle(30));
