@@ -3,7 +3,9 @@ h1 {
 }
 
 .recipe img {
-  width: 240px;
-  height: 11rem;
   padding: 10px;
+}
+
+.row {
+  margin-bottom: 2rem;
 }
