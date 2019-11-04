@@ -52,11 +52,11 @@ const rowArr = [
   26
 ];
 
-function arrOfSeats(row, seat) {
+function arrOfSeats(rows, seats) {
   var emptyArr = [];
-  for (let r = 1; r <= row; r++) {
-    for (let s = 1; s <= seat; s++) {
-      var rowSeat = r + "-" + s;
+  for (let row = 1; row <= rows; row++) {
+    for (let seat = 1; seat <= seats; seat++) {
+      var rowSeat = row + "-" + seat;
       emptyArr.push(rowSeat);
       //console.log("seat " + seat);
     }
